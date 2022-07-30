@@ -1,0 +1,172 @@
+-- Made by Yuki and Tofu
+local Rainbow = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local VGhub = Instance.new("TextButton")
+local Netless = Instance.new("TextButton")
+local Topk3k = Instance.new("TextButton")
+local OrcaHub = Instance.new("TextButton")
+local Pendulum = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+Rainbow.Name = "Rainbow"
+Rainbow.Parent = game.CoreGui
+Rainbow.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = Rainbow
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.Position = UDim2.new(0.136861324, 0, 0.0910891071, 0)
+Main.Size = UDim2.new(0, 705, 0, 365)
+Main.Visible = false
+main.Active = true
+main.Draggable = true
+
+Frame.Parent = Main
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 0.800
+Frame.Position = UDim2.new(0.0141843967, 0, 0.12602739, 0)
+Frame.Size = UDim2.new(0, 685, 0, 310)
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0141843967, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 685, 0, 46)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "Poggers HUB"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+
+TextBox.Parent = Main
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "-- Made by Yuki and Tofu"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+
+VGhub.Name = "VGhub"
+VGhub.Parent = Main
+VGhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VGhub.Position = UDim2.new(0.678014159, 0, 0.183561638, 0)
+VGhub.Size = UDim2.new(0, 200, 0, 50)
+VGhub.Font = Enum.Font.SpecialElite
+VGhub.Text = "VG Hub"
+VGhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+VGhub.TextSize = 14.000
+VGhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+Netless.Name = "Netless"
+Netless.Parent = Main
+Netless.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Netless.Position = UDim2.new(0.35744682, 0, 0.430136979, 0)
+Netless.Size = UDim2.new(0, 200, 0, 50)
+Netless.Font = Enum.Font.SpecialElite
+Netless.Text = "Netless"
+Netless.TextColor3 = Color3.fromRGB(0, 0, 0)
+Netless.TextSize = 14.000
+Netless.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/UJdqNdUa'))()
+end)
+
+Topk3k.Name = "Topk3k"
+Topk3k.Parent = Main
+Topk3k.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Topk3k.Position = UDim2.new(0.038297873, 0, 0.682191789, 0)
+Topk3k.Size = UDim2.new(0, 200, 0, 50)
+Topk3k.Font = Enum.Font.SpecialElite
+Topk3k.Text = "TOPK3K"
+Topk3k.TextColor3 = Color3.fromRGB(0, 0, 0)
+Topk3k.TextSize = 14.000
+Topk3k.MouseButton1Down:connect(function()
+	require(6352196759)("name")
+end)
+
+OrcaHub.Name = "OrcaHub"
+OrcaHub.Parent = Main
+OrcaHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OrcaHub.Position = UDim2.new(0.676595747, 0, 0.682191789, 0)
+OrcaHub.Size = UDim2.new(0, 200, 0, 50)
+OrcaHub.Font = Enum.Font.SpecialElite
+OrcaHub.Text = "Orca Hub"
+OrcaHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+OrcaHub.TextSize = 14.000
+OrcaHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/PQ5BMU29'))()
+end)
+
+Pendulum.Name = "Pendulum"
+Pendulum.Parent = Main
+Pendulum.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pendulum.Position = UDim2.new(0.038297873, 0, 0.183561638, 0)
+Pendulum.Size = UDim2.new(0, 200, 0, 50)
+Pendulum.Font = Enum.Font.SpecialElite
+Pendulum.Text = "Pendulum Hub"
+Pendulum.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pendulum.TextSize = 14.000
+Pendulum.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Close.Position = UDim2.new(0.951773047, 0, 0, 0)
+Close.Size = UDim2.new(0, 34, 0, 46)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+Close.MouseButton1Down:connect(function()
+	Main.Visible = false
+	Frame_2.Visible = true
+end)
+
+Frame_2.Parent = Rainbow
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.Position = UDim2.new(0.00821167883, 0, 0.356435657, 0)
+Frame_2.Size = UDim2.new(0, 103, 0, 36)
+Frame_2.Active = true
+Frame_2.Draggable = true
+
+TextButton.Parent = Frame_2
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Size = UDim2.new(0, 103, 0, 36)
+TextButton.Font = Enum.Font.GrenzeGotisch
+TextButton.Text = "OPEN"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 40.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:connect(function()
+	Frame_2.Visible = false
+	Main.Visible = true
+end)
+
+-- Scripts:
+
+local function LILBTO_fake_script() -- Main.Rainbow 
+	local script = Instance.new('LocalScript', Main)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(LILBTO_fake_script)()
